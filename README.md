@@ -9,13 +9,14 @@
   * Lõin .html, .css ja .js failis Notepad++-is.
   * Alustasin sisestamisvaate loomisega. 
 	Pöörasin kohe alguses palju tähelepanu sellele, et vaade oleks ilus ja lihtsasti mõistetav. Tutvusin koordinaadisüsteemiga. 
-	Selle juures midagi keerulist ei olnud, uueks asjaks oli minu jaoks ainult input-boxide placeholder. 
+	Selle etapi juures midagi keerulist ei olnud, uueks asjaks oli minu jaoks ainult input-boxide placeholder. 
 	Kokku kulus sisestamisvaate loomiseks 1h.
   * Asusin tulemusvaate kujutamise juurde. 
 	Kõige pealt tegelesin vaadete vahetamise, nuppude funktsionaalsusega. 
 	Päeva pikkuse arvutamine tundus minu jaoks kõige raskem osa ja otsisin selle kohta informatsiooni internetist. Leidsin sellise API: https://sunrise-sunset.org/api. Sain aru, et selle jaoks on vaja kasutada ajax-it ning kirjutasin kogu oma senise js ümber jQuery-sse. Kuna jQuery oli minu jaoks uus, kulus mul palju aega selle API tööle saamiseks (sh näpuvigade otsimiseks). Palju abi sain w3schools-i õpetustest. 
 	Kuna API koordinaadil 0.0 ei tööta, kutsusin sellisel juhul välja koordinaadiga 0.0000000001.
 	Lisasin ka erindipüüdmise, et kui kuupäeva või koordinaate ei ole sisestatud, arvutada ei lase.
+	Lisasin ka enteri-klahviga arvutamisfunktsiooni väljakutse.
 	Kokku kulus tulemusvaate loomiseks ja tööle saamiseks 2h.
 
 2. etapp - aega kulus 4h.
@@ -37,3 +38,8 @@
   
 4. etapp - aega kulus 0,5h.
   * Muutsin veebirakenduse mugavalt kasutatavaks ka mobiiliversioonis.
+  
+5. Kui aega oleks veel
+  * Muudaksin UTC ajad ümber kohalikku ajatsooni.
+  * Teeksin ka 3. etapi.
+  * Leiaksin lahenduse koordinaatide kaardil kuvamisele ka kaardilt asukohta valides.
