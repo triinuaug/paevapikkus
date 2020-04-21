@@ -3,7 +3,7 @@ $(document).ready(function(){
 	$(".tulemus").toggle();
 	
 	
-	//Kaart
+	//Kaart https://openlayers.org/en/latest/doc/quickstart.html
 	var map = new ol.Map({
 		target: 'map',
 		layers: [
@@ -117,7 +117,7 @@ $(document).ready(function(){
 		
 		map.setView(new ol.View({
 			center: ol.proj.fromLonLat([0, 0]),
-			zoom: 2
+			zoom: 0
 		}));
 		
 		
